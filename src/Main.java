@@ -73,7 +73,7 @@ public class Main {
         var moreEmployee = 94;
         var totalWorks = moreEmployee + totalEmployee;
         System.out.println ("Всего работает " + totalWorks + " человека");
-        var totalEmployee2 = totalEmployee + moreEmployee * workingHours;
+        var totalEmployee2 = totalWorks * workingHours;
         System.out.println("Если в компании работает " + totalWorks + " человек, то всего " +  totalEmployee2 + " часа работы может быть поделено между сотрудниками");
 
 
